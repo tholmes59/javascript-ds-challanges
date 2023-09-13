@@ -7,6 +7,7 @@ function findMissingLetter(arr) {
       return alphabet[startInx + i];
     }
   }
+  return "";
 }
 
 module.exports = findMissingLetter;
