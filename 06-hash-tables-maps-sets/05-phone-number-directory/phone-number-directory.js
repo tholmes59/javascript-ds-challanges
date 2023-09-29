@@ -3,10 +3,8 @@ function phoneNumberDirectory(arr) {
     return phoneNum.split(":");
   });
 
-  //   console.log(phonenumberArr);
   let phoneMap = new Map(phonenumberArr);
   return phoneMap;
-  //   console.log(phoneMap);
 }
 
 module.exports = phoneNumberDirectory;
